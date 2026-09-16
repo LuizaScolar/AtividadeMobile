@@ -1,7 +1,7 @@
 // o jsx é um html, só que escrito em js 
 // importando as coisas 
 import { StyleSheet, Text, View, Image, Button } from 'react-native';
-import HelloWorld from '../components/comp1';
+import Comp from './components/Comp';
 
 // a View é tipo a div, o que o usuário vai ver.
 export default function App() {
@@ -9,7 +9,7 @@ export default function App() {
   return (
     //interface *chamando o style do container
     <View style={styles.container}>
-      <HelloWorld></HelloWorld>
+      <Comp/>
     </View>
   );
 }
