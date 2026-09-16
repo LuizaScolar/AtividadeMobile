@@ -2,6 +2,7 @@
 // importando as coisas 
 import { StyleSheet, Text, View, Image, Button } from 'react-native';
 import Comp from './components/Comp';
+import Produto from './components/Produto';
 
 // a View é tipo a div, o que o usuário vai ver.
 export default function App() {
@@ -10,6 +11,11 @@ export default function App() {
     //interface *chamando o style do container
     <View style={styles.container}>
       <Comp/>
+      <Produto nome= 'Conceitual' preco={10.00}/>
+      
+      <Produto nome= 'Conceitual' preco={20.00}/>
+      
+      <Produto nome= 'Conceitual' preco={30.00}/>
     </View>
   );
 }
